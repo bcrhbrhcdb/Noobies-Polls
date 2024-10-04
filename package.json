@@ -4,5 +4,23 @@
   },
   "dependencies": {
     "servor": "^4.0.2"
-  }
+  },
+  "name": "noobies-polls",
+  "description": "[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/bcrhbrhcdb/Noobies-Polls)",
+  "version": "0.0.1",
+  "main": "script.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcrhbrhcdb/Noobies-Polls.git"
+  },
+  "keywords": [
+    "start"
+  ],
+  "author": "noob_king",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcrhbrhcdb/Noobies-Polls/issues"
+  },
+  "homepage": "https://github.com/bcrhbrhcdb/Noobies-Polls#readme"
 }
