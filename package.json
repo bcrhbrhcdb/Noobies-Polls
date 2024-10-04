@@ -1,15 +1,21 @@
 {
+  "name": "noobies-polls",
+  "version": "0.0.1",
+  "description": "[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/bcrhbrhcdb/Noobies-Polls)",
+  "main": "script.js",
   "scripts": {
-    "start": "servor --reload"
+    "start": "servor --reload",
+    "build": "echo 'No build step required'",
+    "dev": "servor --reload"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.21.0",
     "dotenv": "^16.4.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0",
     "servor": "^4.0.2"
   },
-  "name": "noobies-polls",
-  "description": "[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/bcrhbrhcdb/Noobies-Polls)",
-  "version": "0.0.1",
-  "main": "script.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bcrhbrhcdb/Noobies-Polls.git"
@@ -22,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/bcrhbrhcdb/Noobies-Polls/issues"
   },
-  "homepage": "https://github.com/bcrhbrhcdb/Noobies-Polls#readme"
+  "homepage": "https://github.com/bcrhbrhcdb/Noobies-Polls#readme",
+  "config": {
+    "fund": false
+  }
 }
